@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Bracket &amp; Bevel</title>
+<meta name="description" content="Start a furniture commission with Bracket & Bevel.">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VG3MJC6J0P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VG3MJC6J0P');
+</script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand"><span class="mark">&#10022;</span> Bracket &amp; Bevel</a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" style="padding-bottom: 24px;">
+    <p class="eyebrow">Start a commission</p>
+    <h1 style="max-width: 16ch;">Tell us about the room.</h1>
+    <p class="lede">A few lines is plenty to start. We'll reply within two working days, usually with a couple of questions about space, wood, and timeline.</p>
+  </section>
+
+  <svg class="grain" viewBox="0 0 1200 28" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,14 Q150,2 300,14 T600,14 T900,14 T1200,14" />
+    <path class="accent" d="M0,18 Q150,26 300,18 T600,18 T900,18 T1200,18" />
+  </svg>
+
+  <section class="tight" style="padding-bottom: 88px;">
+    <div class="contact-grid">
+      <div>
+        <form id="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="field">
+            <label for="message">Tell us about the piece</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn primary" data-track-label="contact_form_button">Send</button>
+          <p id="form-status" class="form-status" role="status"></p>
+        </form>
+      </div>
+      <div>
+        <ul class="info-list">
+          <li><span class="lbl">Reply time</span>Within two working days</li>
+          <li><span class="lbl">Current lead time</span>10&ndash;14 weeks from confirmed design</li>
+          <li><span class="lbl">Shop hours</span>Tuesday&ndash;Saturday, 8am&ndash;5pm</li>
+          <li><span class="lbl">Visits</span>By appointment — the shop is a working space, not a showroom</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-row">
+    <span>&copy; 2026 Bracket &amp; Bevel Furniture Studio</span>
+    <span>Built for a Google Analytics pageview/event test</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
